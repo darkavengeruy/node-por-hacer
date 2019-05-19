@@ -9,9 +9,7 @@ const guardarDB = () => {
     fs.writeFile(`db/data.json`, data, (err) => {
 
         if (err) throw new Error('No se pudo grabar', err)
-
     });
-
 }
 
 const cargarDB = () => {
